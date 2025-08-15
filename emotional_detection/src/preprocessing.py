@@ -6,7 +6,7 @@ def create_data_generators(train_dir,
                            batch_size=32):
     train_datagen = tf.keras.preprocessing.image.ImageDataGenerator(
         rescale = 1./255,
-        rotation_range = 60,#20,
+        rotation_range = 60,
         width_shift_range = 0.2,
         height_shift_range = 0.2,
         brightness_range=(0.85, 1.15),
