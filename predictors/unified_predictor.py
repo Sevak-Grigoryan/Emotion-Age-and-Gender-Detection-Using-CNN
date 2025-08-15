@@ -6,7 +6,7 @@ import pandas as pd
 import tensorflow as tf
 
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 print("Base dir:", BASE_DIR)
 
 GENDER_MODEL_PATH  = os.path.join(BASE_DIR, "gender_detection", "models", "model.keras")
