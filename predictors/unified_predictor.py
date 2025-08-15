@@ -47,7 +47,7 @@ def detect_all():
         print("Error: Could not open webcam.")
         return
 
-    window_name = "Age • Gender • Emotion"
+    window_name = "Age | Gender | Emotion"
     cv2.namedWindow(window_name, cv2.WINDOW_NORMAL)
 
     logs = []
