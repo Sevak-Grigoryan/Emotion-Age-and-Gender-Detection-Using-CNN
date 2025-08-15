@@ -99,9 +99,9 @@ Below is an example of age, gender, and emotion detection on an image:
 
 1. **Clone the repository**
 ```bash
-
 git clone https://github.com/Sevak-Grigoryan/Emotion-Age-and-Gender-Detection-Using-CNN.git
-
+```
+```bash
 cd Emotion-Age-and-Gender-Detection-Using-CNN
 ````
 
