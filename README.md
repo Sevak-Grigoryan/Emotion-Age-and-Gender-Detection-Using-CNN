@@ -109,30 +109,37 @@ cd Emotion-Age-and-Gender-Detection-Using-CNN
 
    Make sure you’re using **Python 3.10** before installing.
 ```bash
-
+py -3.10 -m venv venv
+```
+```bash
+./venv/Scripts/activate
+```
+```bash
 pip install -r requirements.txt
 ```
 
 3. **Run Live Detection**
-
 ```bash
 cd predictors
+```
+```bash
 py unified_predictor.py
 ```
 
 4. **Test on an Image**
-
 ```bash
-
-cd preditors
+cd predictors
+```
+```bash
 py unified_test.py
 ```
 5. **Run Models Separately**
     
     If you want to test each detection model independently, navigate to the respective folder and run its `live_predictor.py` script. For example:
-
 ```bash
 cd emotional_detection/src
+```
+```bash
 py live_predictor.py
 
 ```
