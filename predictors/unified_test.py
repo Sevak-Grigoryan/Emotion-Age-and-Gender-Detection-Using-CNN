@@ -3,7 +3,7 @@ import numpy as np
 import tensorflow as tf
 import os
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 
 IMAGE_PATH   = os.path.join(BASE_DIR, "test", "test.jpg")
 GENDER_MODEL = os.path.join(BASE_DIR, "gender_detection", "models", "model.keras")
