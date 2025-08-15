@@ -1,0 +1,10 @@
+keras
+scipy
+tensorflow
+pandas
+numpy
+h5py
+statistics
+opencv-python
+matplotlib
+seaborn
